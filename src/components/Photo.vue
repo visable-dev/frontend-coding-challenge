@@ -14,6 +14,7 @@ export default {
 <style scoped>
   .photo {
     display: block;
-    width: 100%;
+    width: 22.5rem;
+    margin-bottom: 5px;
   }
 </style>

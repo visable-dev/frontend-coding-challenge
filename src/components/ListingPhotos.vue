@@ -1,7 +1,11 @@
 <template>
   <div class="listingPhotos">
     <div class="listingPhotos__grid">
-      <Photo v-for="(photo, index) in photos" :key="index" :imgSrc="photo.img_src" />
+      <Photo
+        v-for="(photo, index) in photos"
+        :key="index"
+        :imgSrc="photo.img_src"
+      />
     </div>
     <button
       class="listingPhotos__btn"
@@ -67,16 +71,11 @@ export default {
 }
 .listingPhotos__grid {
   margin-bottom: 30px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 33%);
-  grid-gap: 5px;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
 }
 
-@media screen and (max-width: 720px) {
-  .listingPhotos__grid {
-    grid-template-columns: repeat(auto-fill, 99%);
-  }
-}
 .listingPhotos__btn {
   border: 1px solid #000;
   width: 180px;
