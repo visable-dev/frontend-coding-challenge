@@ -25,6 +25,12 @@ Use the "Mars Rover Photos" API section to load the first page of the "Curiosity
 
 As there's potentially several pages of images available for some of the rovers, think of a nice UI pattern that will give the chance to the user to browse all available images. Think "Infinite". You could use a technique to 'throttle' your API requests.
 
+### Phase 2.5 - Required for Fullstack positions
+
+In this case the NASA API is already provided however we would still like to understand how would you design the architecture for this API.
+- Architecture Diagram
+- DB of choice
+- A couple of paragraphs describing the  various key aspects of the system.
 
 ### Phase 3 - nice to have
 
@@ -41,4 +47,4 @@ Your Product owner would like to offer some filtering to the end users. Add a si
 
 ## Deliverables
 
-- fork the repository and/or clone it locally and work on a new private repo in your github profile. Give us permissions when you're finished. Meaningful git commits would be appreciated, so we can see your way of iterating through code.
+- fork the repository and/or clone it locally and work on a new private repo in your GitHub profile. Give us permissions when you're finished. Meaningful git commits would be appreciated, so we can see your way of iterating through code.
